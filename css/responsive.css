@@ -44,4 +44,12 @@
   .quick-notes ul li {
     flex-basis: calc(100% / 3 - (40px / 3));
   }
+
+  /* I bottoni social si allargano */
+  .social-networks button {
+    flex: 1;
+  }
 }
+/* 
+compare il banner pubblicitario
+l'immagine nella descrizione della ricetta viene circondata dal testo */
