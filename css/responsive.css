@@ -6,10 +6,6 @@
 @media screen and (min-width: 576px) {
 }
 
-/* Desktop: da 992px in sù */
-@media screen and (min-width: 992px) {
-}
-
 /* Tablet: da 768px in sù */
 @media screen and (min-width: 768px) {
   /* Il logo nell'header si allinea a sinistra */
@@ -66,5 +62,19 @@
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+/* Desktop: da 992px in sù */
+
+/* Le informazioni della ricetta tornano a disporsi una sotto l'altra
+Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
+Compaiono i nomi delle piattaforme social
+Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
+
+@media screen and (min-width: 992px) {
+  /* La grandezza del titolo della ricetta aumenta ancora di più */
+  .recipe-title h2 {
+    font-size: 2.1rem;
   }
 }
