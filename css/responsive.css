@@ -16,4 +16,11 @@
   #topbar {
     justify-content: flex-start;
   }
+
+  /* Il padding del contenuto principale della pagina aumenta */
+  .container {
+    width: 90%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
