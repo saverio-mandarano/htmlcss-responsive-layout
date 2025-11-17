@@ -37,10 +37,12 @@
     flex-basis: calc(100% / 3 - (40px / 3));
   }
 
-  /* I bottoni social si allargano */
+  /* I bottoni social si allargano  
+  
   .social-networks button {
     flex: 1;
   }
+*/
 
   /* compare il banner pubblicitario */
   .ads {
@@ -101,4 +103,12 @@
 
 /* BONUS - Large Mobile */
 @media screen and (min-width: 576px) {
+  /* I bottoni social si allagano già su dispositivi mobile più grandetti (576px)  */
+  .social-networks button {
+    flex: 1;
+  }
 }
+
+/* 
+l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
+*/
