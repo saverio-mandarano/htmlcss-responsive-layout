@@ -49,7 +49,12 @@
   .social-networks button {
     flex: 1;
   }
+
+  /* compare il banner pubblicitario */
+  .ads {
+    display: inline-block;
+  }
 }
 /* 
-compare il banner pubblicitario
-l'immagine nella descrizione della ricetta viene circondata dal testo */
+l'immagine nella descrizione della ricetta viene circondata dal testo 
+*/
