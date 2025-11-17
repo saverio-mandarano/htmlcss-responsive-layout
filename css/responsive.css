@@ -28,4 +28,9 @@
   .recipe-origin {
     display: inline;
   }
+
+  /* La grandezza del titolo diventa più grande */
+  .recipe-title h2 {
+    font-size: 2rem;
+  }
 }
