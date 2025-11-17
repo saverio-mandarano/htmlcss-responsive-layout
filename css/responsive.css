@@ -1,1 +1,16 @@
-/* Soluzione qui */
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+/* BONUS - Large Mobile */
+@media screen and (min-width: 576px) {
+}
+
+/* Desktop: da 992px in sù */
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet: da 768px in sù */
+@media screen and (min-width: 768px) {
+  /* Il logo nell'header si allinea a sinistra */
+}
