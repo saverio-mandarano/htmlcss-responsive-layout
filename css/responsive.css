@@ -54,7 +54,17 @@
   .ads {
     display: inline-block;
   }
+
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo  */
+  .presentation p.clearfix img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
-/* 
-l'immagine nella descrizione della ricetta viene circondata dal testo 
-*/
