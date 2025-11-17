@@ -13,4 +13,7 @@
 /* Tablet: da 768px in sù */
 @media screen and (min-width: 768px) {
   /* Il logo nell'header si allinea a sinistra */
+  #topbar {
+    justify-content: flex-start;
+  }
 }
