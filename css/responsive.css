@@ -50,7 +50,7 @@
   }
 
   /* l'immagine nella descrizione della ricetta viene circondata dal testo  */
-  .presentation p.clearfix img {
+  /* .presentation p.clearfix img {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -60,7 +60,7 @@
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 }
 
 /* Desktop: da 992px in sù */
@@ -107,8 +107,17 @@
   .social-networks button {
     flex: 1;
   }
-}
 
-/* 
-l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
-*/
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px */
+  .presentation p.clearfix img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
