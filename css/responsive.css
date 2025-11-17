@@ -2,10 +2,6 @@
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* BONUS - Large Mobile */
-@media screen and (min-width: 576px) {
-}
-
 /* Tablet: da 768px in sù */
 @media screen and (min-width: 768px) {
   /* Il logo nell'header si allinea a sinistra */
@@ -101,4 +97,8 @@
     justify-content: space-between;
     text-align: left;
   }
+}
+
+/* BONUS - Large Mobile */
+@media screen and (min-width: 576px) {
 }
