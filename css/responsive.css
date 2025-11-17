@@ -66,9 +66,6 @@
 }
 
 /* Desktop: da 992px in sù */
-/* 
-Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti 
-*/
 @media screen and (min-width: 992px) {
   /* La grandezza del titolo della ricetta aumenta ancora di più */
   .recipe-title h2 {
@@ -96,5 +93,12 @@ Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa l
   /* Compaiono i nomi delle piattaforme social */
   .social-networks .label {
     display: inline;
+  }
+
+  /* Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti  */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
   }
 }
